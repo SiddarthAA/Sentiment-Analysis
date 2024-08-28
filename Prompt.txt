@@ -1,0 +1,41 @@
+"""
+I have an audio file with the following analysis data:
+
+**Audio Transcript:**
+- {audio_transcript}
+
+**Tone Analysis:**
+- **Tone Label**: {tone_label}
+- **Tone Score**: {tone_score}
+
+**Task:**
+
+Please perform the following:
+
+1. **Text Classification**:
+   - write down the audio transcript {audio_transcript}
+   - Analyze the provided transcript and classify the text into categories such as Positive, Negative, or Neutral.
+   - Provide detailed yet concise reason to as why its classified as such.
+
+<br>
+
+2. **Cross-Check Analysis**:
+   - Display the given tone label **{tone_label}** \t tone score **{tone_score}**
+   - Compare the classified text sentiment with the given tone label "{tone_label}". Determine if the tone label aligns with the sentiment of the text content.
+
+<br>
+
+3. **Manipulation Detection**:
+   - If there is a mismatch between the tone label and the classified text sentiment, indicate whether this suggests that the speaker may be manipulating their tone to alter the perceived emotion.
+   - In detail explain if there are any mismatches based on the given data.
+
+<br>
+
+4. **Conclusion**:
+   - Provide a concise, formatted summary indicating whether the tone and text sentiment align or if tone manipulation is likely. Please make the summary visually appealing and easy to understand.
+   - Make it visually appealing by adding tables, visual data, etc.
+
+Ensure the analysis is short, well-formatted with proper spacing between sections, and visually engaging.
+Make the output visually appealing to the user by adding emojis etc, and making the text bold as in required.
+Make it visually appealing by adding tables, visual data, etc.
+"""
